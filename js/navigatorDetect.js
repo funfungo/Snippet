@@ -41,4 +41,8 @@ var browser={
         };
     }(),
     language:(navigator.browserLanguage || navigator.language).toLowerCase()
-}
+};
+
+
+//是否是微信打开
+var _isWechat = navigator.userAgent.indexOf('MicroMessenger/') != -1;
